@@ -11,3 +11,12 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+## Setup
+* First you need to clone the repository with `git clone url_repository`
+* After that run `docker-compose up`
+* Run `rails db:setup`
+
+Now you can visit 'http://localhost:3001/' and will see the frontend running and 'http://localhost:3000/' will see the backend
+
+and that's it.
